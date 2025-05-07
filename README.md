@@ -7,7 +7,7 @@ Code này dùng để chạy tính toán, mô phỏng các bài tập trong mụ
  
 3. Link phân công nhiệm vụ của nhóm: https://docs.google.com/spreadsheets/u/0/d/1jjd5WpRfJMlmF8gWPruqRiakN5R6RL6xyfweTJEIwj0/edit?
 
-4. Link code Python:
+4. Link code Python: https://github.com/DangHung80/Group_ProbabilityandStatistics.git
    
 5. Bài tập 1, 2, 3, ..., 8 của phần 2.6.8
 
