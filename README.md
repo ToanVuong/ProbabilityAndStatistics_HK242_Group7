@@ -14,9 +14,14 @@ Code này dùng để chạy tính toán, mô phỏng các bài tập trong mụ
 Danh sách nhóm: 
 
 (1) Ngô Minh Đại - 2470722
+
 (2) Nguyễn Xuân Hiền - 2470749
+
 (3) Trần Đăng Hùng - 2470750
+
 (4) Nguyễn Đình Nhật Minh - 2370736
+
 (5) Trần Hoài Tâm - 2470743
+
 (6) Vương Minh Toàn - 2491057
 
