@@ -3,7 +3,7 @@ Code này dùng để chạy tính toán, mô phỏng các bài tập trong mụ
 
 1. Link tệp pdf Report và slide của nhóm: https://drive.google.com/drive/folders/1H3pUFPoR-numaQL92RZWCpIKEW3LGQUA?usp=sharing
 
-2. Link LATEX report và slide của nhóm: https://www.overleaf.com/read/wkwcrhwhfptg#8bda29
+2. Link LATEX report và slide của nhóm: https://www.overleaf.com/6958723423tgfmthvnxtwj#3f1482
  
 3. Link phân công nhiệm vụ của nhóm: https://docs.google.com/spreadsheets/u/0/d/1jjd5WpRfJMlmF8gWPruqRiakN5R6RL6xyfweTJEIwj0/edit?
 
