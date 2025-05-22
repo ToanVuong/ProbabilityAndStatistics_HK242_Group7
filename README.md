@@ -50,9 +50,9 @@ Repository chứa tài liệu Jupyternotebook, code ví dụ, code bài tập ch
 
 ---
 
-Notes
-All code is written in Python using the PyTorch and NumPy libraries.
-Each notebook includes both explanations and executable code cells.
+Ghi chú:
+
+Toàn bộ code được viết bằng ngôn ngữ Python, bao gồm cả phần giải thích và code thực thi.
 
 
 
