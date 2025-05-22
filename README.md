@@ -1,17 +1,22 @@
-Group_ProbabilityandStatistics
-Code Python này là do nhóm phát triển để chạy tính toán, mô phỏng các bài tập trong mục "2.6 Probability and Statistics" và bài tập nâng cao do nhóm tự phát triển, gồm code Phython của:
+ProbabilityAndStatistics_HK242_Group4
+This repository contains structured Jupyter documentation and example code for each section of the "Probability and Statistics" chapter from the Dive into Deep Learning book. The content is organized into three main sections:
 
-Link tệp pdf Report và slide của nhóm: https://drive.google.com/drive/folders/1H3pUFPoR-numaQL92RZWCpIKEW3LGQUA?usp=sharing
+1 - Report:
 
-Link LATEX report và slide của nhóm: https://www.overleaf.com/6958723423tgfmthvnxtwj#3f1482
+1.1. A full written report (PDF format)
+1.2. A presentation slide (PDF format)
 
-Link phân công nhiệm vụ của nhóm: https://docs.google.com/spreadsheets/u/0/d/1jjd5WpRfJMlmF8gWPruqRiakN5R6RL6xyfweTJEIwj0/edit?
+2 - Exercises (8 practice exercises in the chapter and 3 advanced exercises)
 
-Link code Python: https://github.com/DangHung80/Group_ProbabilityandStatistics.git
+3 - Sections (code examples). Each numbered notebook corresponds to a section in the "Probability and Statistics" chapter:
 
-Bài tập 1, 2, 3, ..., 8 của phần 2.6.8
+---
 
-Bài tập nâng cao số 1, 2.
+Notes
+All code is written in Python using the PyTorch and NumPy libraries.
+Each notebook includes both explanations and executable code cells.
+
+---
 
 Danh sách nhóm:
 
