@@ -36,7 +36,7 @@ ProbabilityAndStatistics_HK242_Group7
 
 ---
 
-This repository contains structured Jupyter documentation and example code for each section of the "Probability and Statistics" chapter from the Dive into Deep Learning book. The content is organized into three main sections:
+Repository chứa tài liệu Jupyternotebook, code ví dụ, code bài tập cho từng phần của chương "Xác suất và Thống kê" từ sách "Dive into Deep Learning". Nội dung được tổ chức thành ba phần chính:
 
 1 - Notebooks
 
