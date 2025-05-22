@@ -4,6 +4,7 @@ This repository contains structured Jupyter documentation and example code for e
 1 - Report:
 
 1.1. A full written report (PDF format)
+
 1.2. A presentation slide (PDF format)
 
 2 - Exercises (8 practice exercises in the chapter and 3 advanced exercises)
