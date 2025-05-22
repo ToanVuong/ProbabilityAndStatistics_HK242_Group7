@@ -38,15 +38,15 @@ ProbabilityAndStatistics_HK242_Group7
 
 This repository contains structured Jupyter documentation and example code for each section of the "Probability and Statistics" chapter from the Dive into Deep Learning book. The content is organized into three main sections:
 
-1 - Report:
+1 - Notebooks
 
-1.1. A full written report (PDF format)
+2 - Report:
 
-1.2. A presentation slide (PDF format)
+2.1. A full written report (PDF format)
 
-2 - Exercises (8 practice exercises in the chapter and 3 advanced exercises)
+2.2. A presentation slide (PDF format)
 
-3 - Sections (code examples). Each numbered notebook corresponds to a section in the "Probability and Statistics" chapter:
+3 - Exercises (8 practice exercises in the chapter and 3 advanced exercises)
 
 ---
 
