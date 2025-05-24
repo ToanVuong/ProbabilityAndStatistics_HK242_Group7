@@ -18,9 +18,9 @@ Bài tập lớn
 
 Học viên thực hiện:
 
-(1) Ngô Minh Đại - 2470722
+(1) Trần Đăng Hùng - 2470750
 
-(2) Trần Đăng Hùng - 2470750
+(2) Ngô Minh Đại - 2470722
 
 (3) Nguyễn Đình Nhật Minh - 2370736
 
