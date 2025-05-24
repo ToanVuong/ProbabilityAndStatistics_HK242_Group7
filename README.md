@@ -49,9 +49,7 @@ Repository chứa tài liệu Jupyternotebook, code ví dụ, code bài tập ch
 
 ---
 
-Ghi chú:
-
-Toàn bộ code được viết bằng ngôn ngữ Python, bao gồm cả phần giải thích và code thực thi.
+Ghi chú: Toàn bộ code được nhóm 7 viết bằng ngôn ngữ Python.
 
 
 
