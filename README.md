@@ -17,17 +17,16 @@ Bài tập lớn
 ---
 
 Học viên thực hiện:
+
 (1) Ngô Minh Đại - 2470722
 
-(2) Nguyễn Xuân Hiền - 2470749
+(2) Trần Đăng Hùng - 2470750
 
-(3) Trần Đăng Hùng - 2470750
+(3) Nguyễn Đình Nhật Minh - 2370736
 
-(4) Nguyễn Đình Nhật Minh - 2370736
+(4) Trần Hoài Tâm - 2470743
 
-(5) Trần Hoài Tâm - 2470743
-
-(6) Vương Minh Toàn - 2491057
+(5) Vương Minh Toàn - 2491057
 
 
 
