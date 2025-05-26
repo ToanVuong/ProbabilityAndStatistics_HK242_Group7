@@ -1,0 +1,22 @@
+import itertools
+
+# Các khả năng: N = Ngửa (Heads), S = Sấp (Tails)
+outcomes = list(itertools.product(['N', 'S'], repeat=2))
+
+# Sự kiện A: lần 1 là Ngửa
+# Sự kiện B: lần 2 là Ngửa
+event_A = [o for o in outcomes if o[0] == 'N']
+event_B = [o for o in outcomes if o[1] == 'N']
+event_A_and_B = [o for o in outcomes if o[0] == 'N' and o[1] == 'N']
+
+P_A = len(event_A) / len(outcomes)
+P_B = len(event_B) / len(outcomes)
+P_A_and_B = len(event_A_and_B) / len(outcomes)
+P_A_times_P_B = P_A * P_B
+
+print("== Tung đồng xu hai lần ==")
+print(f"P(A) = {P_A}")
+print(f"P(B) = {P_B}")
+print(f"P(A ∩ B) = {P_A_and_B}")
+print(f"P(A) * P(B) = {P_A_times_P_B}")
+print("→ A và B độc lập:", P_A_and_B == P_A_times_P_B)
