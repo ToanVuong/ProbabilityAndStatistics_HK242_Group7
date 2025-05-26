@@ -28,7 +28,7 @@ Học viên thực hiện:
 
 (5) Nguyễn Đình Nhật Minh - 2370736
 
-ProbabilityAndStatistics_HK242_Group7
+Probability And Statistics HK242 Group7
 
 ---
 
