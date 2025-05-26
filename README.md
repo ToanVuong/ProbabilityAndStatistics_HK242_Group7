@@ -16,7 +16,7 @@ Bài tập lớn
 
 ---
 
-Học viên thực hiện:
+Học viên thực hiện (Group7):
 
 (1) Trần Đăng Hùng - 2470750
 
@@ -28,7 +28,7 @@ Học viên thực hiện:
 
 (5) Nguyễn Đình Nhật Minh - 2370736
 
-Probability And Statistics HK242 Group7
+
 
 ---
 
