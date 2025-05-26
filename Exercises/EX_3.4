@@ -20,3 +20,29 @@ print(f"P(B) = {P_B}")
 print(f"P(A ∩ B) = {P_A_and_B}")
 print(f"P(A) * P(B) = {P_A_times_P_B}")
 print("→ A và B độc lập:", P_A_and_B == P_A_times_P_B)
+
+
+# Giả sử túi có: ['Đỏ', 'Đỏ', 'Xanh']
+balls = ['Đ', 'Đ', 'X']
+
+# Liệt kê tất cả cách rút 2 viên không hoàn lại
+draws = list(itertools.permutations(balls, 2))
+
+# Sự kiện C: viên 1 là Xanh
+# Sự kiện D: viên 2 là Xanh
+event_C = [d for d in draws if d[0] == 'X']
+event_D = [d for d in draws if d[1] == 'X']
+event_C_and_D = [d for d in draws if d[0] == 'X' and d[1] == 'X']
+
+P_C = len(event_C) / len(draws)
+P_D = len(event_D) / len(draws)
+P_C_and_D = len(event_C_and_D) / len(draws)
+P_C_times_P_D = P_C * P_D
+
+print("\n== Rút bi không hoàn lại từ túi (2 Đ, 1 X) ==")
+print(f"P(C) = {P_C}")
+print(f"P(D) = {P_D}")
+print(f"P(C ∩ D) = {P_C_and_D}")
+print(f"P(C) * P(D) = {P_C_times_P_D}")
+print("→ C và D phụ thuộc:", P_C_and_D != P_C_times_P_D)
+
