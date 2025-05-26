@@ -1,0 +1,75 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Hàm mật độ chung f_{A,B}(a,b)
+def f_AB(a, b):
+    if 0 <= a <= 2 and 1 <= b <= 3:
+        return 1 / 4
+    return 0.0
+
+# Hàm mật độ biên f_A(a)
+def f_A(a):
+    if 0 <= a <= 2:
+        return 0.5
+    return 0.0
+
+# Hàm mật độ biên f_B(b)
+def f_B(b):
+    if 1 <= b <= 3:
+        return 0.5
+    return 0.0
+
+# Kiểm tra bất đẳng thức biên
+def check_boundary_inequality():
+    A_vals = np.linspace(0, 2, 5)
+    B_vals = np.linspace(1, 3, 5)
+
+    print("Kiểm tra bất đẳng thức biên f_AB(a,b) ≤ f_A(a) và f_B(b):\n")
+    for a in A_vals:
+        for b in B_vals:
+            fab = f_AB(a, b)
+            fa = f_A(a)
+            fb = f_B(b)
+            assert fab <= fa and fab <= fb, "Vi phạm bất đẳng thức biên!"
+            print(f"f_AB({a:.1f}, {b:.1f}) = {fab:.2f} ≤ f_A({a:.1f}) = {fa:.2f}, f_B({b:.1f}) = {fb:.2f}")
+
+# Vẽ biểu đồ minh họa bất đẳng thức biên
+def plot_boundary_inequality():
+    # Cố định b = 2 để vẽ f_AB(a, b=2) và f_A(a)
+    b_fixed = 2
+    a_vals = np.linspace(-0.5, 2.5, 300)
+    fab_vals = [f_AB(a, b_fixed) for a in a_vals]
+    fa_vals = [f_A(a) for a in a_vals]
+
+    plt.figure(figsize=(8, 4))
+    plt.plot(a_vals, fab_vals, label=rf"$f_{{AB}}(a, b={b_fixed})$", color='blue')
+    plt.plot(a_vals, fa_vals, label=r"$f_A(a)$", color='red', linestyle='--')
+    plt.title(r"Bất đẳng thức biên: $f_{AB}(a,b) \leq f_A(a)$")
+    plt.xlabel("a")
+    plt.ylabel("Mật độ")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+    # Cố định a = 1 để vẽ f_AB(a=1, b) và f_B(b)
+    a_fixed = 1
+    b_vals = np.linspace(0.5, 3.5, 300)
+    fab_vals_b = [f_AB(a_fixed, b) for b in b_vals]
+    fb_vals = [f_B(b) for b in b_vals]
+
+    plt.figure(figsize=(8, 4))
+    plt.plot(b_vals, fab_vals_b, label=rf"$f_{{AB}}(a={a_fixed}, b)$", color='green')
+    plt.plot(b_vals, fb_vals, label=r"$f_B(b)$", color='purple', linestyle='--')
+    plt.title(r"Bất đẳng thức biên: $f_{AB}(a,b) \leq f_B(b)$")
+    plt.xlabel("b")
+    plt.ylabel("Mật độ")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
+
+
+# Gọi hàm chạy demo
+check_boundary_inequality()
+plot_boundary_inequality()
