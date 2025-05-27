@@ -16,22 +16,19 @@ Bài tập lớn
 
 ---
 
-Học viên thực hiện:
+Học viên thực hiện (Group7):
 
 (1) Trần Đăng Hùng - 2470750
 
-(2) Ngô Minh Đại - 2470722
+(2) Trần Hoài Tâm - 2470743
 
-(3) Nguyễn Đình Nhật Minh - 2370736
+(3) Ngô Minh Đại - 2470722
 
-(4) Trần Hoài Tâm - 2470743
+(4) Vương Minh Toàn - 2491057
 
-(5) Vương Minh Toàn - 2491057
-
-
+(5) Nguyễn Đình Nhật Minh - 2370736
 
 
-ProbabilityAndStatistics_HK242_Group7
 
 ---
 
